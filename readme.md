@@ -10,7 +10,7 @@ From GitHub (before publishing to npm)
 
 Clone the repo and link it globally:
 
-git clone https://github.com/MrPiyushmandloi/reviwe.git
+git clone https://github.com/MrPiyushmandloi/review-my-code.git
 cd reviwe
 npm install
 npm link
@@ -118,5 +118,6 @@ Pull requests are welcome!
 📜 License
 
 MIT License © 2025 [Piyush Mandloi]
+
 
 
