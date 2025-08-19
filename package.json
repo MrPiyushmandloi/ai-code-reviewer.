@@ -1,21 +1,37 @@
 {
-  "name": "reviwe",
+  "name": "ai-code-reviewer",
   "version": "1.0.0",
+  "description": "AI-powered code reviewer and corrector CLI tool",
   "main": "index.js",
   "type": "module",
   "bin": {
     "review-my-code": "./index.js",
-     "correct-code": "./index.js"
+    "correct-code": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrPiyushmandloi/ai-code-reviewer.git"
+  },
+  "keywords": [
+    "ai",
+    "code-review",
+    "cli",
+    "code-corrector",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Piyush Mandloi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrPiyushmandloi/ai-code-reviewer/issues"
+  },
+  "homepage": "https://github.com/MrPiyushmandloi/ai-code-reviewer#readme",
   "dependencies": {
     "axios": "^1.11.0",
     "dotenv": "^17.2.1"
   }
 }
+
