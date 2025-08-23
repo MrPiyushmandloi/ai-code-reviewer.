@@ -1,8 +1,8 @@
-📦 Review & Correct Code CLI
+## 📦 Review & Correct Code CLI
 
 A simple CLI tool to review and correct your code using AI. This package helps developers quickly spot improvements and fix errors in their code from the terminal.
 
-🚀 Installation
+## 🚀 Installation
 From npm (after publishing)
 npm install -g reviwe
 
@@ -15,7 +15,7 @@ cd reviwe
 npm install
 npm link
 
-⚙️ Setup
+## ⚙️ Setup
 
 This project requires an OpenAI API key.
 
@@ -23,19 +23,24 @@ Create a .env file in the project root.
 
 Add the following line:
 
-OPENAI_API_KEY=your_api_key_here
+```bash
+GEMINI_API_KEY=your_api_key_here
+```
 
-🖥️ Usage
+## 🖥️ Usage
 1. Review Your Code
 
 Run this command to review code quality and improvements:
-
+```bash
 review-my-code path/to/file.js
+```
 
 
+```bash
 Example:
 
 review-my-code example.js
+```
 
 
 Output:
@@ -47,13 +52,16 @@ Performance and readability feedback.
 2. Correct Your Code
 
 Run this command to auto-correct your code:
-
+```bash
 correct-code path/to/file.js
+```
 
 
+```bash
 Example:
 
 correct-code buggy.js
+```
 
 
 Output:
@@ -62,19 +70,23 @@ Corrected code printed in the terminal.
 
 Can be copied directly.
 
-📖 Example
+## 📖 Example
 
+```javascript
 Input file:
 
 function add(a,b){
 return a+b
 }
 console.log(add(2,3))
+```
 
 
 Command:
+```bash
 
 review-my-code add.js
+```
 
 
 Output:
@@ -85,8 +97,10 @@ Output:
 
 
 Command:
+```bash
 
 correct-code add.js
+```
 
 
 Output:
@@ -96,14 +110,14 @@ function add(a, b) {
 }
 console.log(add(2, 3));
 
-🔧 Development
+## 🔧 Development
 
 Run locally:
 
 node index.js review path/to/file.js
 node index.js correct path/to/file.js
 
-📌 Roadmap
+## 📌 Roadmap
 
  Add support for multiple programming languages.
 
@@ -111,13 +125,14 @@ node index.js correct path/to/file.js
 
  Add tests and CI/CD.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Pull requests are welcome!
 
-📜 License
+## 📜 License
 
 MIT License © 2025 [Piyush Mandloi]
+
 
 
 
