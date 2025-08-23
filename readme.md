@@ -3,16 +3,17 @@
 A simple CLI tool to review and correct your code using AI. This package helps developers quickly spot improvements and fix errors in their code from the terminal.
 
 ## 🚀 Installation
-From npm (after publishing)
-npm install -g reviwe
 
-From GitHub (before publishing to npm)
-
-Clone the repo and link it globally:
-
+# Clone the repository
 git clone https://github.com/MrPiyushmandloi/ai-code-reviewer.git
-cd reviwe
+
+# Move into the project directory
+cd ai-code-reviewer
+
+# Install dependencies
 npm install
+
+# Link the package globally (so you can run it as a CLI)
 npm link
 
 ## ⚙️ Setup
@@ -132,6 +133,7 @@ Pull requests are welcome!
 ## 📜 License
 
 MIT License © 2025 [Piyush Mandloi]
+
 
 
 
